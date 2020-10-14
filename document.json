@@ -1,0 +1,38 @@
+{
+  "name": "Hubble Space Telescope Public Data Dataset",
+  "description": "The Hubble Space Telescope (HST) is one of the most productive scientific instruments ever created. This dataset contains calibrated and raw data for all of the currently active instruments on HST: ACS, COS, STIS and WFC3.",
+  "logo": "_images/dataset.png",
+  "has_supporting_content": false,
+  "stack_id": "hstpd_dataset",
+  "type": "dataset-s3",
+  "categories": [
+    "Public Dataset"
+  ],
+  "platform": "Kubernetes",
+  "cover": "cover.md",
+  "commands": [],
+  "display": [
+    {
+      "name": "Developer Dashboard",
+      "url": "##DNS.host##/codeserver",
+      "enabled": true
+    }
+  ],
+  "buckets": [
+    "stpubdata/hst",
+    "stpubdata"
+  ],
+  "meta": {
+    "Install time": [
+      "2 minutes"
+    ],
+    "Language": [
+      "Dataset",
+      "S3"
+    ],
+    "categories": [
+      "Public Dataset"
+    ]
+  },
+  "isDocumentSaved": true
+}
