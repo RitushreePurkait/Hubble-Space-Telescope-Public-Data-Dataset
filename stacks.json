@@ -8,7 +8,7 @@
     "S3"
   ],
   "document": "data-logging-stack",
-  "stack_id": "hstpd_dataset",
+  "stack_id": "hstpd-dataset",
   "type": "dataset-s3",
   "categories": [
     "Public Dataset"
